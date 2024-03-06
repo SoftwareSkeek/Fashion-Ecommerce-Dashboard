@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login-page-body {
+    background-color: #FBFAF8;
+}
+
+.login-page-container {
+    width: 50%;
+    height: 565.22px;
+    margin: auto;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #F5DFBD;
+    border-radius: 5px;
+}
+
+.login-page-right img {
+    width: 450px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.login-page-left h1 {
+    font-size: 30px;
+}
+
+.login-page-form {
+    margin: 0px 76px 0px 0px;
+}
