@@ -1,9 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "acumin-pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .login-page-body {
@@ -22,15 +19,106 @@
     border-radius: 5px;
 }
 
-.login-page-right img {
+.login-page-left img {
     width: 450px;
     border-radius: 5px 0px 0px 5px;
 }
 
-.login-page-left h1 {
-    font-size: 30px;
+.login-page-right {
+    font-family: "acumin-pro", sans-serif;
+    margin: 60px 30px;
 }
 
-.login-page-form {
-    margin: 0px 76px 0px 0px;
+.login-page-right h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0px 0px 30px 0px;
+}
+
+.login-page-form label{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.login-page-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E9E9EA;
+    background-color: #F4F5F7;
+    /* margin: 0px 0px 20px 0px; */
+    width: 350px;
+}
+
+.login-page-form-email {
+    margin: 0px 0px 20px 0px;
+
+}
+
+.login-page-form-email::placeholder {
+    font-weight: bold;
+    color: #6C6A65;
+}
+
+.login-page-form-password{
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #6C6A65;
+    margin: 0px 0px 5px 0px;
+}
+
+.login-page-form a {
+    color: #6C6A65;
+    font-size: 13px;
+}
+
+.btn-for-login {
+    margin: 20px 0px 0px 0px;
+    border: 0px solid ;
+}
+
+.btn-for-login input {
+    width: 378px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #F5DFBD;
+}
+
+.login-page-form-hr {
+    width: 378px;
+    margin: 30px 0px;
+    color: #dbd8d291;
+    border: 1px solid;
+    
+}
+.btn-for-fb-login {
+    width: 378px;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    font-weight: bold;
+    background-color: #FCF4E8;
+    border: 0px solid;
+}
+
+.btn-for-fb-login img {
+    width: 22px;
+    margin: 0px 0px -5px 0px;
+}
+
+.btn-for-linkedin-login {
+    width: 378px;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px 7px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+    background-color: #FCF4E8;
+    border: 0px solid;
+}
+
+.btn-for-linkedin-login img {
+    width: 22px;
+    margin: 0px 0px -5px 0px;
 }
