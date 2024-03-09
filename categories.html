@@ -105,101 +105,54 @@
                     <img src="assests/images/guy-plaid-shirt.jpg" alt="profile-img" class="top-box-tools-profile">
                 </div>
             </div>
-            <div class="overview-dashboard">
-                <h1>Dashboard Overview</h1>
-                <div class="overview-boxes-container">
-                    <div class="overview-box" style="background-color: #19E0F3;">
-                        <img src="assests/images/package-plus.svg" alt="package-plus">
-                        <h3>Today Orders</h3>
-                        <b>$472.00</b>
-                        <p>Cash : $0.00 Card : $0.00 Credit : $0.00</p>
+            <div class="categories-dashboard">
+                <h1>Category</h1>
+                <div class="category-tools">
+                    <div class="category-tools-impo-expo">
+                        <button><img src="assests/images/file-down.svg" alt="file-down">
+                            <p>Import</p>
+                        </button>
+                        <button><img src="assests/images/file-up.svg" alt="file-up">
+                            <p>Export</p>
+                        </button>
                     </div>
-                    <div class="overview-box" style="background-color: #FF8C39;">
-                        <img src="assests/images/package-check.svg" alt="packages-check">
-                        <h3>Yesterday Orders</h3>
-                        <b>$1135.00</b>
-                        <p>Cash : $0.00 Card : $0.00 Credit : $0.00</p>
-                    </div>
-                    <div class="overview-box" style="background-color: #54A6FF;">
-                        <img src="assests/images/pie-chart.svg" alt="pie-chart">
-                        <h3>This Month</h3>
-                        <b>$49135.00</b>
-                        <p>Cash : $0.00 Card : $0.00 Credit : $0.00</p>
-                    </div>
-                    <div class="overview-box" style="background-color: #10EEA3;">
-                        <img src="assests/images/activity-square.svg" alt="activity-square">
-                        <h3>All Time Sales</h3>
-                        <b>$178135</b>
-                        <p>Cash : $0.00 Card : $0.00 Credit : $0.00</p>
+                    <div class="category-tools-del-add">
+                        <button class="del"><img src="assests/images/trash-2.svg" alt="trash-2">
+                            <p>Delete</p>
+                        </button>
+                        <button class="add"><img src="assests/images/plus.svg" alt="plus">
+                            <p>Add Product</p>
+                        </button>
                     </div>
                 </div>
-                <div class="overview-boxes-details-container">
-                    <div class="overview-box-details">
-                        <div class="overview-boxes-details-img" style="background-color: #E7F4FF;">
-                            <img src="assests/images/shopping-cart.svg" alt="shopping-cart">
-                        </div>
-                        <div class="overview-boxes-detais-info">
-                            <h3>Total Orders</h3>
-                            <b>314</b>
-                        </div>
-                    </div>
-                    <div class="overview-box-details">
-                        <div class="overview-boxes-details-img" style="background-color: #FFFECB;">
-                            <img src="assests/images/refresh-ccw.svg" alt="refresh-ccw">
-                        </div>
-                        <div class="overview-boxes-detais-info">
-                            <h3>Orders Pending</h3>
-                            <b>73</b>
-                        </div>
-                    </div>
-                    <div class="overview-box-details">
-                        <div class="overview-boxes-details-img" style="background-color: #FFEDE9;">
-                            <img src="assests/images/truck.svg" alt="truck">
-                        </div>
-                        <div class="overview-boxes-detais-info">
-                            <h3>Orders Processing</h3>
-                            <b>42</b>
-                        </div>
-                    </div>
-                    <div class="overview-box-details">
-                        <div class="overview-boxes-details-img" style="background-color: #EEFFF2;">
-                            <img src="assests/images/check-circle-2.svg" alt="check-circle-2">
-                        </div>
-                        <div class="overview-boxes-detais-info">
-                            <h3>Orders Delivered</h3>
-                            <b>199</b>
-                        </div>
-                    </div>
-                </div>
-                <div class="overview-graphs">
-                    <div class="overview-weekly-sales">
-                        <h3>Weekly Sales</h3>
-                        <img src="assests/images/search-engine-rankings.png" alt="search-engine-rankings">
-                    </div>
-                    <div class="overview-selling-products">
-                        <h3>Best Selling Products</h3>
-                        <img src="assests/images/product-sales.png" alt="product-sales">
+                <div class="category-search-container">
+                    <div class="category-search-boxes">
+                        <input type="search" placeholder="Search by Category Name">
                     </div>
                 </div>
                 <div class="overview-orders-container">
-                    <h3>Recent Order</h3>
                     <div class="overview-orders-list-container">
                         <div class="overview-orders-list-title">
-                            <p>INVOICE NO</p>
-                            <p>ORDER TIME</p>
-                            <p>CUSTOMER NAME</p>
-                            <p>METHOD</p>
-                            <p>AMOUNT</p>
-                            <p>STATUS</p>
-                            <p>INVOICE</p>
+                            <p><input type="checkbox"></p>
+                            <p>ID</p>
+                            <p>NAME</p>
+                            <p>DESCRIPTION</p>
+                            <p>VIEW</p>
+                            <p>PUBLISHED</p>
+                            <p>ACTIONS</p>
                         </div>
                         <div class="overview-orders-list-rows">
-                            <p>10268</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox" checked></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
@@ -207,12 +160,17 @@
                         </div>
                         <hr>
                         <div class="overview-orders-list-rows">
-                            <p>10267</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox"></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
@@ -220,12 +178,17 @@
                         </div>
                         <hr>
                         <div class="overview-orders-list-rows">
-                            <p>10266</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox" checked></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
@@ -233,12 +196,17 @@
                         </div>
                         <hr>
                         <div class="overview-orders-list-rows">
-                            <p>10265</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox"></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
@@ -246,12 +214,17 @@
                         </div>
                         <hr>
                         <div class="overview-orders-list-rows">
-                            <p>10264</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox" checked></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
@@ -259,12 +232,17 @@
                         </div>
                         <hr>
                         <div class="overview-orders-list-rows">
-                            <p>10263</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox" checked></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
@@ -272,12 +250,17 @@
                         </div>
                         <hr>
                         <div class="overview-orders-list-rows">
-                            <p>10262</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox"></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
@@ -285,12 +268,17 @@
                         </div>
                         <hr>
                         <div class="overview-orders-list-rows">
-                            <p>10261</p>
-                            <p>FEB 29, 2024 2:14 PM</p>
-                            <p class="list-customer-name">jhon doe</p>
-                            <p class="list-customer-method">CASH</p>
-                            <p class="list-customer-amount">$214.58</p>
-                            <p class="list-customer-status">PENDING</p>
+                            <p><input type="checkbox"></p>
+                            <p>0BC4</p>
+                            <p>Sunglasses</p>
+                            <p>Sunglass</p>
+                            <p><img src="assests/images/search-slash.svg" alt="search-slash"></p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
                             <p>
                                 <img src="assests/images/check-circle-2.svg" alt="">
                                 <img src="assests/images/refresh-ccw.svg" alt="">
