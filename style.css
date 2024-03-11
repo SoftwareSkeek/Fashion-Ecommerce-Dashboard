@@ -476,7 +476,7 @@
 
 .products-dashboard {
     background-color: #FBFAF8;
-    height: 1650px;
+    height: 1150px;
 }
 
 .products-dashboard h1 {
@@ -659,18 +659,6 @@ input:checked+.slider:before {
 }
 
 .categories-dashboard h1 {
-    font-size: 25px;
-    padding: 30px 0px 0px 60px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-}
-
-.category-dashboard {
-    background-color: #FBFAF8;
-    height: 1650px;
-}
-
-.category-dashboard h1 {
     font-size: 25px;
     padding: 30px 0px 0px 60px;
     font-weight: 600;
@@ -876,5 +864,288 @@ input:checked+.slider:before {
     background-color: #F7F7F7;
     border: 1px solid #F5DFBD;
     border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.customers-dashboard {
+    background-color: #FBFAF8;
+    height: 1150px;
+}
+
+.customers-dashboard h1 {
+    font-size: 25px;
+    padding: 30px 0px 0px 60px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.customers-tools {
+    display: flex;
+    height: 110px;
+    gap: 830px;
+    border: 1px solid #F5DFBD;
+    border-radius: 5px;
+    margin: 30px 60px 0px 60px;
+    background-color: #FFFFFF;
+}
+
+.customers-tools-impo-expo {
+    margin: 35px 0px 0px 20px;
+    display: flex;
+}
+
+.customers-tools-impo-expo button {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    margin: 0px 0px 0px 20px;
+    background-color: #FFFFFF;
+    padding: 0px;
+    border: 1px solid #000000a9;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.customers-tools-impo-expo button p {
+    margin: 5px 0px 0px 5px;
+}
+
+
+.customers-tools-del-add {
+    margin: 35px 0px 0px 0px;
+    display: flex;
+}
+
+.customers-tools-del-add button {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.customers-tools-del-add button p {
+    margin: 0px 0px 0px 5px;
+}
+
+.customers-search-container {
+    display: flex;
+    height: 110px;
+    border: 1px solid #F5DFBD;
+    border-radius: 5px;
+    margin: 30px 60px 0px 60px;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.customers-search-boxes input {
+    width: 1400px;
+    margin: 30px 30px 0px 40px;
+    padding: 15px 0px 15px 30px;
+    font-size: 17px;
+    background-color: #F4F5F7;
+    border: 1px solid #DFDFE0;
+    border-radius: 5px;
+}
+
+
+
+.orders-dashboard {
+    background-color: #FBFAF8;
+    height: 1150px;
+}
+
+.orders-dashboard h1 {
+    font-size: 25px;
+    padding: 30px 0px 0px 60px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.orders-search-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 220px;
+    border: 1px solid #F5DFBD;
+    margin: 30px 60px 0px 60px;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+}
+
+.orders-search-boxes input {
+    width: 350px;
+    margin: 30px 30px 0px 40px;
+    padding: 15px 0px 15px 10px;
+    font-size: 17px;
+    background-color: #F4F5F7;
+    border: 1px solid #DFDFE0;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.orders-search-boxes select {
+    width: 350px;
+    margin: 30px 30px 0px 40px;
+    padding: 15px 0px 15px 10px;
+    font-size: 17px;
+    background-color: #F4F5F7;
+    border: 1px solid #DFDFE0;
+    border-radius: 5px;
+    color: #6C6A65;
+    font-family: "Poppins", sans-serif;
+}
+
+.orders-select-price p {
+    margin: 0px 30px 5px 40px;
+    color: #515151;
+    font-family: "Poppins", sans-serif;
+}
+
+.orders-select-price select {
+    width: 350px;
+    margin: 0px 30px 0px 40px;
+    padding: 15px 0px 15px 10px;
+    font-size: 17px;
+    background-color: #F4F5F7;
+    border: 1px solid #DFDFE0;
+    border-radius: 5px;
+    color: #6C6A65;
+}
+
+
+.orders-download-btn button {
+    display: flex;
+    width: 350px;
+    margin: 20px 30px 0px 40px;
+    padding: 15px 0px 15px 10px;
+    font-size: 17px;
+    background-color: #F5DFBD;
+    border: 0px;
+    border-radius: 5px;
+    color: #6C6A65;
+}
+
+.orders-download-btn button img {
+    margin: 0px 0px 0px 50px;
+}
+
+.orders-download-btn button p {
+    margin: 3px 0px 0px 10px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.staff-dashboard {
+    background-color: #FBFAF8;
+    height: 1150px;
+}
+
+.staff-dashboard h1 {
+    font-size: 25px;
+    padding: 30px 0px 0px 60px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.staff-tools {
+    display: flex;
+    height: 110px;
+    gap: 830px;
+    border: 1px solid #F5DFBD;
+    border-radius: 5px;
+    margin: 30px 60px 0px 60px;
+    background-color: #FFFFFF;
+}
+
+.staff-tools-impo-expo {
+    margin: 35px 0px 0px 20px;
+    display: flex;
+}
+
+.staff-tools-impo-expo button {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    margin: 0px 0px 0px 20px;
+    background-color: #FFFFFF;
+    padding: 0px;
+    border: 1px solid #000000a9;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.staff-tools-impo-expo button p {
+    margin: 5px 0px 0px 5px;
+}
+
+
+.staff-tools-del-add {
+    margin: 35px 0px 0px 0px;
+    display: flex;
+}
+
+.staff-tools-del-add button {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.staff-tools-del-add button p {
+    margin: 0px 0px 0px 5px;
+}
+
+.staff-search-container {
+    display: flex;
+    height: 110px;
+    border: 1px solid #F5DFBD;
+    border-radius: 5px;
+    margin: 30px 60px 0px 60px;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.staff-search-boxes input {
+    width: 1400px;
+    margin: 30px 30px 0px 40px;
+    padding: 15px 0px 15px 30px;
+    font-size: 17px;
+    background-color: #F4F5F7;
+    border: 1px solid #DFDFE0;
+    border-radius: 5px;
+}
+
+
+.settings-dashboard {
+    background-color: #FBFAF8;
+    height: 1150px;
+}
+
+.settings-dashboard h1 {
+    font-size: 25px;
+    padding: 30px 0px 0px 60px;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
