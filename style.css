@@ -520,6 +520,9 @@
     margin: 5px 0px 0px 5px;
 }
 
+.file-input {
+    display: none; 
+}
 
 .products-tools-del-add {
     margin: 35px 0px 0px 0px;

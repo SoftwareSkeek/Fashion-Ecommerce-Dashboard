@@ -108,9 +108,13 @@
                 <h1>Products</h1>
                 <div class="products-tools">
                     <div class="products-tools-impo-expo">
-                        <button><img src="assests/images/file-down.svg" alt="file-down">
-                            <p>Import</p>
-                        </button>
+                        <form action="">
+                            <input type="file" class="file-input" hidden>
+                            <button id="import-button" class="import-button">
+                                <img src="assests/images/file-down.svg"alt="file-down">
+                                <p>Import</p>
+                            </button>
+                        </form>
                         <button><img src="assests/images/file-up.svg" alt="file-up">
                             <p>Export</p>
                         </button>
@@ -336,6 +340,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

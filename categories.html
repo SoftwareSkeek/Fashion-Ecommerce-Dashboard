@@ -76,7 +76,6 @@
                 <img src="assests/images/globe.svg" alt="globe">
                 <a href="languages.html" class="link-navbar-overview">
                     <h3>International</h3>
-
                 </a>
             </div>
             <div class="navigation-main-dropdown">
@@ -109,9 +108,13 @@
                 <h1>Category</h1>
                 <div class="category-tools">
                     <div class="category-tools-impo-expo">
-                        <button><img src="assests/images/file-down.svg" alt="file-down">
-                            <p>Import</p>
-                        </button>
+                        <form action="">
+                            <input type="file" class="file-input" id="file-input">
+                            <button id="import-button" class="import-button">
+                                <img src="assests/images/file-down.svg" alt="file-down">
+                                <p>Import</p>
+                            </button>
+                        </form>
                         <button><img src="assests/images/file-up.svg" alt="file-up">
                             <p>Export</p>
                         </button>
@@ -300,6 +303,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
