@@ -1375,3 +1375,33 @@ input:checked+.slider:before {
     color: black;
     cursor: not-allowed;
 }
+
+/* responsiveness */
+
+@media (max-width: 1441px) {
+    
+}
+
+@media (max-width: 1281px) {
+
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 961px) {
+
+}
+
+@media (max-width: 801px) {
+
+}
+
+@media (max-width: 641px) {
+
+}
+
+@media (max-width: 481px) {
+
+}
