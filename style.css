@@ -1415,8 +1415,8 @@ input:checked+.slider:before {
     .left-side-navbar {
         overflow-y: auto;
         width: 200px;
-        height: 100vh;
-        margin: 10px 0px 0px 10px;
+        height: 100%;
+        margin: 0px 0px 0px 10px;
         position: fixed;
         top: 0;
         left: -310px;
@@ -1479,6 +1479,11 @@ input:checked+.slider:before {
     .navbar-navigation-tools h3 {
         font-size: var(--lft-nav-h3-font-size);
         margin: var(--lft-nav-h3-margin);
+    }
+
+    .navigation-main-dropdown {
+        width: 150px;
+        padding: 0px 0px 10px 50px;
     }
 
     .top-box-tools {
@@ -1588,6 +1593,34 @@ input:checked+.slider:before {
 
     .overview-orders-container h3 {
         margin: 10px 0px 0px 35px;
+    }
+
+    .lists-overflow-scroll {
+        margin: 20px auto;
+        overflow-x: auto;
+        width: 600px;
+        background-color: #F7F7F7;
+        border: 1px solid #F5DFBD;
+        border-radius: 5px;
+    }
+
+    .overview-orders-list-container {
+        margin: 0px 0px 0px 0px;
+        width: 1520px;
+        background-color: #F7F7F7;
+        border: 1px solid #F5DFBD;
+        border-top: 0px;
+        border-radius: 0px;
+    }
+
+    .overview-orders-list-title {
+        padding: 20px 30px;
+        font-size: 11px;
+    }
+
+    .overview-orders-list-rows {
+        padding: 20px 40px;
+        font-size: 11px;
     }
 
     
