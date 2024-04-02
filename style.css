@@ -1549,6 +1549,48 @@ input:checked+.slider:before {
         font-size: 13px;
         margin: 0px 0px 0px 10px;
     }
+
+    .overview-graphs {
+        flex-wrap: wrap;
+    }
+
+    .overview-weekly-sales {
+        width: 500px;
+        height: 350px;
+        background-color: #FFFFFF;
+        margin: 0px 70px 20px 70px;
+    }
+
+    .overview-graphs h3 {
+        padding: 15px 0px 0px 15px;
+    }
+
+    .overview-weekly-sales img {
+        width: 450px;
+        margin: 10px 0px 0px 15px;
+    }
+
+    .overview-selling-products {
+        width: 500px;
+        height: 350px;
+        background-color: #FFFFFF;
+        margin: 0px 70px 20px 70px;
+    }
+
+    .overview-selling-products h3 {
+        padding: 15px 0px 0px 15px;
+    }
+
+    .overview-selling-products img {
+        width: 250px;
+        margin: 2px 125px 0px 125px;
+    }
+
+    .overview-orders-container h3 {
+        margin: 10px 0px 0px 35px;
+    }
+
+    
 }
 
 @media (max-width: 481px) {}
